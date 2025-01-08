@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff4d1c;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #1e88e5;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #ff4d1c;
+    color: white;
+}
+
+.btn-outline {
+    border: 1px solid #1e88e5;
+    color: #1e88e5;
+}
+
+.hero {
+    background-color: #e3f2fd;
+    min-height: 80vh;
+    padding: 2rem;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 600px;
+    padding: 4rem 2rem;
+}
+
+.hero-title {
+    font-size: 3rem;
+    color: #1e3a5f;
+    margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+    font-size: 2rem;
+    color: #1e3a5f;
+    margin-bottom: 1rem;
+}
+
+.hero-text {
+    font-size: 1.1rem;
+    color: #4a5568;
+    margin-bottom: 2rem;
+}
+
+.cards-section {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: -4rem;
+    padding: 0 2rem;
+}
+
+.card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+
+.card-title {
+    color: #1e3a5f;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    color: #4a5568;
+} 

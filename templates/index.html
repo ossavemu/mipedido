@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>MiPedido - Tu Mensajero a un Clic</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='/css/styles.css') }}">
+    <script>
+        console.log('Página cargada');
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM cargado');
+        });
+    </script>
+</head>
+<body>
+    <div class="header">
+        <a href="/" class="logo">MiPedido</a>
+        <div class="nav-buttons">
+            <a href="/registro" class="btn btn-outline">Inscríbete</a>
+            <a href="/rastrear" class="btn btn-secondary">Rastrear Envío</a>
+            <a href="/contacto" class="btn btn-outline">Contáctanos</a>
+            <a href="/solicitar" class="btn btn-primary">Solicitar Servicio</a>
+        </div>
+    </div>
+    <div class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">TU MENSAJERO A UN CLIC</h1>
+            <h2 class="hero-subtitle">¿Quiénes somos?</h2>
+            <p class="hero-text">
+                Somos una plataforma digital que conecta las necesidades de los mercados con el cliente o consumidor final, 
+                de una manera fácil e intuitiva; donde por medio de mensajeros, se efectúan las entregas y/o despachos de mercancías; 
+                convirtiéndose en la mejor alternativa para los modelos de distribución que requiere el mercado.
+            </p>
+            <a href="/solicitar" class="btn btn-secondary">Solicita Un MiPedido</a>
+        </div>
+    </div>
+    <div class="cards-section">
+        <div class="card">
+            <h3 class="card-title">Para empresas</h3>
+            <p class="card-text">
+                Dale una dinámica y velocidad DIFERENCIADORA a tu empresa, PYME o emprendimiento. MiPedido 
+                te ayudará a conectar tu negocio con tus tiendas, clientes y/o intermediarios.
+            </p>
+        </div>
+        <div class="card">
+            <h3 class="card-title">Para mensajeros</h3>
+            <p class="card-text">
+                Súmate a la comunidad de superhéroes y define cuándo conectarte, qué servicios tomar y 
+                cuándo parar. ¡Ojo! Que el éxito de tu economía está en tomar más servicios y salvar el día de aquellos 
+                que te solicitan.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
